@@ -1,0 +1,9 @@
+.avatarComponent{
+    position:absolute;
+    top:50%;
+    left:50%;
+}
+.userName{
+    text-align: center;
+    font-size:36px;
+}

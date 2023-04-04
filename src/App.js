@@ -1,12 +1,11 @@
-import { Fragment } from 'react';
 import './App.css';
-import UserInfo from './userInfo';
-
+import UserInfo from './UserInfo';
+let backgroundImage = './images/background.png'
 function App() {
   return (
-    <Fragment>
+    <div className='outerBox' style={{backgroundImage: `url(${backgroundImage})`,height:'1920px',width:'1080px'}}>
       <UserInfo />
-    </Fragment>
+    </div>
   );
 }
 

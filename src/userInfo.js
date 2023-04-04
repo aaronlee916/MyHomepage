@@ -1,10 +1,14 @@
 import React, { Component } from 'react'
+import './UserInfo.css'
 import { Avatar } from 'antd'
-
-class UserInfo extends Component{
-    render(){
-        return(
-            <Avatar src="./images/IMG_0520.PNG" size={256}></Avatar>
+import pic from './images/IMG_0520.PNG'
+class UserInfo extends Component {
+    render() {
+        return (
+            <div className='avatarComponent'>
+                <Avatar src={pic} size={256}></Avatar>
+                <div className='userName'>你好</div>
+            </div>
         )
     }
 }
